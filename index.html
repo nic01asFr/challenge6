@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Launch countdown timer</title>
+
+</head>
+<body>
+
+  <div class='header'><span>We're launching soon</span></div>
+
+  <div class='container' id='container'>
+
+    <div class='days box'>
+      <div class='days panelBox'>
+        <div class='top cont' id='topContDay'>
+          <div id='days' class="numbers front"></div>
+          <div class="tl panel"></div>
+          <div class="tr panel"></div>
+        </div>
+        <div class='bottom cont' id='bottomContDay'>
+          <div id='nextDays' class="numbers back"></div>
+          <div class="bl panel"></div>
+          <div class="br panel"></div>
+        </div>
+      </div>
+      <div class='days label'>
+        <span>Days</span>
+      </div>
+    </div>
+
+    <div class='hours box'>
+      <div class='hours panelBox'>
+        <div class='top cont' id='topContHour'>
+          <div id='hours' class="numbers front"></div>
+          <div class="tl panel"></div>
+          <div class="tr panel"></div>
+        </div>
+        <div class='bottom cont' id='bottomContHour'>
+          <div id='nextHours' class="numbers back"></div>
+          <div class="bl panel"></div>
+          <div class="br panel"></div>
+        </div>
+      </div>
+      <div class='hours label'>
+        <span>Hours</span>
+      </div>
+    </div>
+
+    <div class='minutes box'>
+      <div class='minutes panelBox'>
+        <div class='top cont' id='topContMin'>
+          <div id='minutes' class="numbers front"></div>
+          <div class="tl panel"></div>
+          <div class="tr panel"></div>
+        </div>
+        <div class='bottom cont' id='bottomContMin'>
+          <div id='nextMinutes' class="numbers back"></div>
+          <div class="bl panel"></div>
+          <div class="br panel"></div>
+        </div>
+      </div>
+      <div class='minutes label'>
+        <span>Minutes</span>
+      </div>
+    </div>
+
+    <div class='secondes box'>
+      <div class='secondes panelBox'>
+        <div class='top cont' id='topContSec'>
+          <div id='secondes' class="numbers front"></div>
+          <div class="tl panel"></div>
+          <div class="tr panel"></div>
+        </div>
+        <div class='bottom cont' id='bottomContSec'>
+          <div id='nextSecondes' class="numbers back"></div>
+          <div class="bl panel"></div>
+          <div class="br panel"></div>
+        </div>
+      </div>
+      <div class='secondes label'>
+        <span>Secondes</span>
+      </div>
+    </div>
+
+  </div>
+  
+  <div class='svgFooter'>
+    <div class='btnBox'>
+      <button class="icon fb"></button>
+      <button class="icon prst"></button>
+      <button class="icon inst"></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
