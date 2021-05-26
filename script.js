@@ -7,7 +7,7 @@ const dayPanelBottom = document.getElementById('bottomContDay');
 days.textContent = '14';
 nextDays.textContent = '14';
 
-let hour = 59 ;
+let hour = 23 ;
 const hours = document.getElementById('hours');
 const nextHours = document.getElementById('nextHours');
 const hourPanelTop = document.getElementById('topContHour');
